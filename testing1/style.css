@@ -1,0 +1,218 @@
+*, html, body {
+    margin : 0;
+    padding : 0;
+}   
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: aliceblue;
+}
+/* panggil class pakai (.), id pake (#). */
+.hContainer {
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+}
+
+.hWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba( 0, 0, 0, 0.5);  /* ini biar ada effect shadownya gitu */
+}
+
+.brandName {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    padding: 15px;
+}
+.firstBrandName {
+    color: aliceblue;
+    font-weight: 700;
+}
+.lastBrandName {
+    color: aquamarine;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation li {
+    list-style-type: none; /* menghilangkan listynya (kayak tanda urutan) */
+    overflow: hidden;
+    padding: 15px;
+}
+nav li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none; /* sebelumnya kalo link kan textnya seperti undercase, sekarang gaada kalo begini. */
+}
+.navigation li a:active { /*kalo di klik nanti bakal gimana*/
+    color: aliceblue;
+    background-color: aquamarine;
+    padding: 5px;
+    font-size: 110%;
+}
+nav li a:hover { /* ketika mouse terletak pada linknya */
+    background-color: grey;
+    color: aquamarine;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.mContainer {
+    display: flex;
+    align-items: top;
+    width: auto;
+    height: 500px;
+}
+.mWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;  
+    width: 800px;
+    height: 350px;
+    justify-content: space-evenly;
+}
+.mainWord {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    font-size: 35px;
+}
+.mainWordContent {
+    color: #222;
+    text-align: left;
+    font-weight: 700; /* ketebalan text  */
+}
+.mainDescContent {
+    color: #222;
+    text-align: left;
+    font-weight: 500;
+}
+
+.mStart {
+    display: flex;
+    justify-content: left;
+}
+.mStart li {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #222;
+}
+.mStart li a {
+    text-decoration: none;
+    color: white;
+}
+.mStart li a:active {
+    color: aquamarine;
+    background-color: black;
+    font-size: 110%;
+    scroll-behavior: auto;
+}
+.mStart li a:hover {
+    text-align: center;
+    align-items: center;
+    color: aquamarine;
+    background-color: #222;
+    transition: all .4s ease-in-out;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    background-color: ;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;   
+}
+.card {
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+    margin: 50px;
+    color: white;
+    background-color: #222;
+    box-shadow: 0 10px 15px 0 rgba( 0, 0, 0, 0.5);
+}
+.card:hover {
+    
+}
+.btn {
+    margin-top: 8px;
+    padding: 8px;
+    cursor:  pointer;
+    border: none;
+    width: 100%;
+}
+.btn:hover {
+    background-color: white;
+    color: #222;
+    transition: all .4s ease-in-out;
+}
+.btn:active {
+    font-size: 105%;
+}
+.option {
+    font-size: 30px;
+}
+.desOption {
+    font-size: 25px;
+}
+.optionPoto {
+    margin-top: 8px;
+    align-items: center;
+}
+.navigation {
+    background-color: ;
+    padding: 5px;
+}
+      
+        
+        main {
+            text-align: center;
+            padding: 5px;
+        }
+
+  
+       
+
+        footer {
+            background-color: grey;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .part1 {
+            color: blueviolet;
+            text-align: center;
+        }
+        .aboutDigtho {
+            text-indent: 100px;
+            text-align: justify;
+        }
